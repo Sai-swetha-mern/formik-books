@@ -1,0 +1,112 @@
+body {
+  background-color: rgb(178, 85, 178); /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, rgb(141, 74, 141) , rgb(170, 135, 193));  font-weight: bolder;
+  color:white;
+  overflow:hidden;
+  object-fit:cover;
+}
+.card {
+  width: 32rem;
+  box-shadow: 12px 12px 12px 1px rgba(0, 0, 255, 0.2);
+  overflow: hidden;
+  padding: 14px;
+  border-radius: 12px;
+  border-color: rgba(0, 0, 0, 0.771);
+}
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-group {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+.text {
+  padding: 2px 3px;
+}
+input {
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 8px;
+}
+.btn {
+  border-radius: 3px;
+  margin-left: 150px;
+}
+.card-header {
+  background-color: rgba(11, 28, 38, 0.771);
+  color: white;
+}
+.navbar {
+  background-color: rgb(33, 37, 41);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #000000;
+}
+.nav-item {
+  padding: 10px;
+  margin-top: 10px;
+}
+.nav-link {
+  text-decoration: underline;
+}
+.nav-items {
+  margin-top: 10px;
+  margin-left: 5px;
+}
+img {
+  border-radius: 10px;
+  filter: drop-shadow(0 0 0.55rem rgb(174, 140, 146));
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.text {
+  text-shadow: 2px 8px 6px rgba(0, 0, 0, 0.2),
+    0px -5px 35px rgba(255, 255, 255, 0.3);
+}
+.manage-systems {
+  text-align: left;
+  padding-left: 20px;
+}
+.brand {
+  color: white;
+  display: flex;
+  align-items: center; /* Align brand vertically */
+  gap: 2px;
+  margin-right: auto;
+}
+.conatiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 89vh;
+}
+.navbar ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.brand {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+}
+@media screen and (max-width: 500px) {
+  body {
+    text-align: center;
+  }
+}
